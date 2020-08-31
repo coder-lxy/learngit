@@ -1,0 +1,7 @@
+切换到ssh方式
+1. 查看克隆地址： git remote -v
+2. 移除https的方式，切换成ssh: git remote rm origin
+3. 添加新的git方式，git remote add origin git地址
+4. 查看是否修改成功：git remote -v
+5. 重新push：git push origin master
+
